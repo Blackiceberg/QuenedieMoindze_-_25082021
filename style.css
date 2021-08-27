@@ -1,0 +1,200 @@
+body{
+    background-color: white;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.5em;
+
+}
+
+.maquette{
+    position: absolute;
+    width: 100%;
+}
+
+
+.logo{
+    transform: scale(0.65);
+    
+}
+
+.login {
+    font-weight: 700;
+    flex:3;
+}
+
+.login a {
+    color:#0065FC;
+}
+
+nav{
+
+}
+
+nav ul{
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+nav ul li:nth-child(1){
+    flex: 0;
+}
+nav ul li:nth-child(2){
+    flex: 1;
+    padding: 5em 5em 5em 5em;
+    text-align: right;
+}
+
+
+
+
+
+nav ul li:nth-child(3){
+    flex: 2;
+    padding: 3em;
+    text-align: center;
+    border-bottom: solid 3px #F2F2F2;
+}
+
+nav ul li:nth-child(3):hover{
+    border-bottom: solid 3px #0065FC;
+}
+
+nav ul li:nth-child(4){
+    flex: 2;
+    padding: 3em;
+    text-align: center;
+    border-bottom: solid 3px #F2F2F2;
+}
+
+nav ul li:nth-child(4):hover{
+    border-bottom: solid 3px #0065FC;
+}
+.switch{   
+    border-bottom: solid 3px #0065FC;
+}
+.switch a{
+color: #000;
+}
+.switch a:hover{
+    color: #0065FC;   
+}
+
+header h1{
+    font-size: 3.5em;
+    padding: 1em 1em 0em;
+}
+
+ header h2{
+    font-weight: 200;
+    padding: 0em 2em;
+    font-size: 1.8em;
+    width: 100%;
+}
+
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 6em 1em 1em;
+    font-size: 3.5em;
+}
+
+.search label{
+    background: #F2F2F2;
+    text-align: center;
+    padding: .5em .8em;
+    border-radius: 25% 0 0 25%;
+}
+
+.search input {
+    font-size: .8em;
+    font-family: 'Raleway';
+    font-weight: 700;
+    border: solid 1px #F2F2F2;
+    padding: 0em 1.2em;
+}
+
+.search button{
+    font-size: 1em;
+    color: #FFF;
+    background-color: #0065FC;
+    border: none;
+    padding: .5em .5em;
+    border-radius: 25%;
+    position: relative;
+    right: .5em;
+}
+
+
+/*Filtres*/
+
+.filtres h1{
+    font-size: 3em;
+    padding: 2em 0 1em 1em;
+}
+
+.filtres ul{
+    list-style: none;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filtres ul li{
+    margin: 0em 0em 2em 2em;
+}
+
+.filtres ul li a{
+    border: solid 3px #d9d9d9;
+    padding: 0.8em 1.5em .8em .2em;
+    border-radius: 2em;
+
+}
+
+.filtres ul li i{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 0.97em;
+    position: relative;
+    right: 0.3em;
+    border-radius: 50%;
+}
+aside span i{
+    border: solid 2px #F2F2F2;
+    border-radius: 100%;
+    width: 5em;
+    font-size: .6em;
+    margin: 0em 2em 0 5em;
+    height: 5em;
+    text-align: center;
+    position: relative;
+    top: 5.5em;
+    line-height: 2em!important;
+    color: #0065FC;
+}
+
+h1 aside {
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 100;
+    width: 20em;
+}
+
+.info p{
+    display: inline-block;
+    font-size: 2.5em;
+    padding: 0em 2em;
+    position: relative;
+    left: 1em;
+    margin: 0;
+}

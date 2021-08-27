@@ -4,11 +4,42 @@
     <title>Reservia</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/535fd5953b.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-        
+      <nav>
+        <ul>
+          <li class="logo"><a href="#"><img src="images/logo/Reservia@3x.png" alt="logo Reservia"/></a></li>
+          <li class="login"><a href="#">S'inscrire</a></li>
+          <li class="switch active"><a class="active" href="#">Hébergements</a></li>
+          <li class="switch"><a href="#">Activités</a></li>
+        </ul>
+      </nav>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <h2>En plein centre ville ou en pleine nature</h2>
+      <form class="search">
+        <label for="recherche"><i class="fas fa-map-marker-alt"></i></label>
+        <input type="search" id="recherche" value="Marseille, France">
+        <button><i class="fas fa-search"></i></button> 
+      </form>
+      <div class="filtres">
+        <h1>Filtres</h1>
+        <ul>
+          <li><a href="#"><i class="fas fa-money-bill-wave"></i>Économique</a></li>
+          <li><a href="#"><i class="fas fa-child"></i></i>Familiale</a></li>
+          <li><a href="#"><i class="fas fa-heart"></i>Romantique</a></li>
+          <li><a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a></li>
+        </ul>
+      </div>
+      <aside class="info">
+      <span><i class="fas fa-info"></i>
+      <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
+    </span>
+    </aside>
     </header>
-
   </body>
 </html>
